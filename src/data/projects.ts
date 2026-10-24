@@ -7,7 +7,7 @@ export type Project = {
 
 export const projects: Project[] = [
   {
-    slug: 'drug-discovery-agent', name: 'Drug Discovery Agent', kind: 'Agentic AI',
+    slug: 'drug-discovery-agent', name: 'Drug Discovery Agent', kind: 'Personal Agentic AI',
     problem: 'Drug-target prioritisation means querying several biomedical databases by hand and reconciling their evidence.',
     built: 'A multi-agent system that integrates biomedical evidence from DepMap, Open Targets, Pharos and Europe PMC using MCP-connected tools.',
     stack: ['Python', 'LangGraph', 'MCP', 'FastAPI', 'OpenAI', 'Gemini', 'RAG'],
@@ -22,7 +22,7 @@ export const projects: Project[] = [
     limitations: 'No scientific or clinical validation is claimed.',
   },
   {
-    slug: 'resume-analyzer', name: 'AI-Powered Resume Analyzer', kind: 'Personal project',
+    slug: 'resume-analyzer', name: 'AI-Powered Resume Analyzer', kind: 'Client Project',
     problem: 'Reviewing resumes across different document formats and comparing them against job descriptions is time-consuming.',
     built: 'An LLM-powered application that extracts resume content, generates structured feedback and compares resumes against job descriptions using embedding similarity.',
     stack: ['Python', 'Streamlit', 'Gemini', 'Embeddings', 'PyPDF2', 'Tesseract OCR'],
@@ -36,7 +36,7 @@ export const projects: Project[] = [
     limitations: 'Similarity and generated feedback should be reviewed by a human before making hiring decisions.',
   },
   {
-    slug: 'clinical-study-assistant', name: 'Clinical Study Assistant Agent', kind: 'Agentic AI',
+    slug: 'clinical-study-assistant', name: 'Clinical Study Assistant Agent', kind: 'Client Project',
     problem: 'Clinical study teams need to retrieve comparable studies, interpret KPI questions and use trained prediction models without manually coordinating multiple tools.',
     built: 'A LangGraph agent that selects MCP tools, calls trained KPI prediction models, retrieves similar studies and returns results through REST APIs.',
     stack: ['Python', 'LangGraph', 'FastMCP', 'FastAPI', 'scikit-learn'],
@@ -50,7 +50,7 @@ export const projects: Project[] = [
     limitations: 'Model quality depends on the available training data and connected study sources.',
   },
   {
-    slug: 'power-bi-time-card', name: 'Power BI Time Card Reporting', kind: 'Professional work',
+    slug: 'power-bi-time-card', name: 'Power BI Time Card Reporting', kind: 'Client Project',
     problem: 'Workforce and time-card data needed consolidated reporting for working hours, overtime, project allocation, resource utilisation and compliance.',
     built: 'Interactive Power BI reports and an executive infographic report for workforce insights and management decisions.',
     stack: ['Power BI', 'DAX', 'Power Automate', 'Data Gateway'], confidential: true,
@@ -64,7 +64,7 @@ export const projects: Project[] = [
     limitations: 'Employer data, screenshots and business logic are deliberately not published.',
   },
   {
-    slug: 'ai-blog-generator', name: 'AI-Powered Blog Generator', kind: 'Professional work',
+    slug: 'ai-blog-generator', name: 'AI-Powered Blog Generator', kind: 'Personal Project',
     problem: 'Creating, editing and publishing content for changing datasets takes significant manual effort.',
     built: 'An AI content generator using Llama 3.1 8B, AWS Bedrock and RAG, delivered through Streamlit.',
     stack: ['Llama 3.1 8B', 'AWS Bedrock', 'RAG', 'Streamlit'],
@@ -78,7 +78,7 @@ export const projects: Project[] = [
     limitations: 'Generated content still benefits from editorial review before publication.',
   },
   {
-    slug: 'clinical-resource-forecasting', name: 'Clinical Study Resource Demand Forecasting', kind: 'Professional work',
+    slug: 'clinical-resource-forecasting', name: 'Clinical Study Resource Demand Forecasting', kind: 'Client Project',
     problem: 'Clinical-study teams need forward-looking resource estimates for staffing and capacity planning.',
     built: 'A production regression model on Databricks that forecasts monthly study resource demand and writes predictions to Delta tables for BI dashboards.',
     stack: ['Databricks', 'PySpark', 'Delta Lake', 'MLflow', 'XGBoost', 'LightGBM', 'Databricks Workflows'],
