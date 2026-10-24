@@ -326,7 +326,7 @@ export default function App() {
             <Rv key={s.group} delay={i * 0.06}><div className="card skills-card"><h3>{s.group}</h3><div className="tags">{s.items.map((t) => <motion.span key={t} className={s.exploring ? 'dim' : ''} whileHover={{ y: -3, scale: 1.06 }}>{t}</motion.span>)}</div></div></Rv>))}</div>
         </Sec>
         <Sec id="experience" n="02 — Building with data and AI" title="Professional experience"><Experience onOpen={setOpen} /></Sec>
-        <Sec id="projects" n="03 — From ideas to intelligent systems" title="Selected work"><Projects onOpen={setOpen} /></Sec>
+        <Sec id="projects" n="03 — From ideas to intelligent systems" title="My Projects"><Projects onOpen={setOpen} /></Sec>
         <Sec id="education" n="04 — Where it started" title="Education">
           <div className="grid">{education.map((d, i) => (
             <Rv key={d.degree} delay={i * 0.08}><div className="card"><small>Degree</small><h3>{d.degree}</h3>

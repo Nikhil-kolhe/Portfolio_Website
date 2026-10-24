@@ -30,10 +30,13 @@ export const experience = [
     ],
     tools: ['Python', 'LangGraph', 'MCP', 'FastAPI', 'Power BI', 'Databricks'],
     gained: [
-      'LLM applications, multi-agent systems and tool integrations with MCP',
-      'Machine learning workflows using Databricks, PySpark, MLflow and Delta Lake',
-      'Power BI reporting for workforce insights, compliance and operational planning',
-    ],
+  'Agentic AI systems: multi-agent orchestration with LangGraph, tool calling, planning and memory, and human-in-the-loop controls',
+  'Model Context Protocol (MCP): building custom MCP servers and clients to connect LLM agents to enterprise tools, APIs and data',
+  'LLM application engineering: RAG pipelines, embeddings and vector search (FAISS), structured outputs, prompt design and hallucination guardrails',
+  'LLM evaluation and observability: grounding checks, output validation and agent tracing for reliable production behavior',
+  'Machine learning workflows using Databricks, PySpark, MLflow and Delta Lake, from experiment tracking to model deployment',
+  'Power BI reporting for workforce insights, compliance and operational planning',
+],
     projects: ['resume-analyzer', 'clinical-study-assistant', 'power-bi-time-card', 'clinical-resource-forecasting'],
   },
 ]
